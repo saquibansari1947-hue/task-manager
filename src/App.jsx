@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import Sample from "./Practice/sample.jsx";
 import PracticeUseEffect from "./Practice/useEffect.jsx";
+import AddTask from "./Practice/addtask.jsx";
+import { TaskmanagerPractice } from "./Practice/TaskmanagerPractice.jsx";
 
 function App() {
   // -----------------------------
@@ -115,6 +117,8 @@ function App() {
       <div>
         <Sample />
         <PracticeUseEffect />
+        <AddTask />
+        <TaskmanagerPractice />
       </div>
     </div>
   );
